@@ -1,0 +1,33 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<actions xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open..." />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save..." />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save as..." />
+    <!--    Example Action -->
+    <!--    <action intentName="Intent name (actions.intent.*)"> -->
+    <!--        <action-display -->
+    <!--            icon="@mipmap/..." -->
+    <!--            labelTemplate="@array/..." /> -->
+    <!--        <fulfillment urlTemplate="Action content URI or URL"> -->
+    <!--            <parameter-mapping -->
+    <!--                intentParameter="Parameter name in Intent URI" -->
+    <!--                urlParameter="Parameter name in URL" /> -->
+    <!--        </fulfillment> -->
+    <!--    </action> -->
+</actions>
